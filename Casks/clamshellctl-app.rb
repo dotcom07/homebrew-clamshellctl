@@ -7,6 +7,8 @@ cask "clamshellctl-app" do
   desc "Menu bar app for MacBook clamshell brightness, mute, and sleep behavior"
   homepage "https://github.com/dotcom07/clamshellctl"
 
+  depends_on macos: ">= :ventura"
+
   app "ClamshellCtl.app"
 
   zap trash: [
