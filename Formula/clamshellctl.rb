@@ -29,6 +29,9 @@ class Clamshellctl < Formula
 
       Prefer a clickable menu bar app?
         brew install --cask dotcom07/clamshellctl/clamshellctl-app
+
+      The CLI is the recommended stable install today. The menu bar app is a
+      tester build until the app is Developer ID signed and notarized.
     EOS
   end
 
