@@ -28,7 +28,7 @@ class Clamshellctl < Formula
       requires privileges to change pmset disablesleep.
 
       Prefer a clickable menu bar app?
-        brew install --cask dotcom07/clamshellctl/clamshellctl
+        brew install --cask dotcom07/clamshellctl/clamshellctl-app
     EOS
   end
 

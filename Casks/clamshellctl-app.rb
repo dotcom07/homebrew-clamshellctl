@@ -1,4 +1,4 @@
-cask "clamshellctl" do
+cask "clamshellctl-app" do
   version "0.4.0"
   sha256 "9097da3eb99b4c086edabebacdea4a995eba128f07cdadcb06172fbe27b4cc47"
 
