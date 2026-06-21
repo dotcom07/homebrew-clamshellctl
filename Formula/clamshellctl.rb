@@ -13,6 +13,19 @@ class Clamshellctl < Formula
     system "make", "VERSION=#{version}", "PREFIX=#{prefix}", "install"
   end
 
+  def caveats
+    <<~EOS
+      Quick start:
+        clamshellctl on       # dim built-in display, mute audio, prevent sleep on AC power
+        clamshellctl off      # restore brightness/audio and allow normal sleep
+        clamshellctl status   # show current clamshell-related state
+        clamshellctl diag     # print display/audio/power diagnostics
+
+      The on/off commands may ask for an administrator password because macOS
+      requires privileges to change pmset disablesleep.
+    EOS
+  end
+
   test do
     assert_match version.to_s, shell_output("#{bin}/clamshellctl --version")
   end
