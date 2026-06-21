@@ -1,9 +1,10 @@
-# dotcom07 Homebrew Tap
+# clamshellctl Homebrew Tap
 
 Install `clamshellctl`:
 
 ```sh
-brew install dotcom07/tap/clamshellctl
+brew tap dotcom07/clamshellctl
+brew install clamshellctl
 ```
 
 Upgrade later:
