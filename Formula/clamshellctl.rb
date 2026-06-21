@@ -29,15 +29,8 @@ class Clamshellctl < Formula
 
       Recommendation:
         Use the CLI for closed-display, long-running work such as AI agents,
-        builds, downloads, or scripts. If you prefer the menu bar app for that
-        workflow, enable Strong Mode. The app's Standard Mode is mainly for
-        brightness and mute, and may not keep a closed MacBook awake.
-
-      Prefer a clickable menu bar app?
-        brew install --cask dotcom07/clamshellctl/clamshellctl-app
-
-      The CLI is the recommended stable install today. The menu bar app is a
-      tester build until the app is Developer ID signed and notarized.
+        builds, downloads, or scripts. The menu bar app is not distributed
+        through Homebrew yet.
     EOS
   end
 
