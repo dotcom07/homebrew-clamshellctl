@@ -27,6 +27,12 @@ class Clamshellctl < Formula
       The on/off commands may ask for an administrator password because macOS
       requires privileges to change pmset disablesleep.
 
+      Recommendation:
+        Use the CLI for closed-display, long-running work such as AI agents,
+        builds, downloads, or scripts. If you prefer the menu bar app for that
+        workflow, enable Strong Mode. The app's Standard Mode is mainly for
+        brightness and mute, and may not keep a closed MacBook awake.
+
       Prefer a clickable menu bar app?
         brew install --cask dotcom07/clamshellctl/clamshellctl-app
 
