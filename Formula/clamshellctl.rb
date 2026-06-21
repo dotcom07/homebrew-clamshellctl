@@ -1,8 +1,8 @@
 class Clamshellctl < Formula
   desc "Native macOS clamshell helper for brightness, mute, and disablesleep"
   homepage "https://github.com/dotcom07/clamshellctl"
-  url "https://github.com/dotcom07/clamshellctl/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "8c5ff89b8f5b3be382b8a22e33d62a6821eedb2b6a84c1d31b98a8084d80e14a"
+  url "https://github.com/dotcom07/clamshellctl/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "dd4ed428573c4d03b1cacc856ba67ff8822154043c764151558d647fb517aa97"
   license "BSD-2-Clause"
   head "https://github.com/dotcom07/clamshellctl.git", branch: "main"
 
@@ -26,6 +26,9 @@ class Clamshellctl < Formula
 
       The on/off commands may ask for an administrator password because macOS
       requires privileges to change pmset disablesleep.
+
+      Prefer a clickable menu bar app?
+        brew install --cask dotcom07/clamshellctl/clamshellctl
     EOS
   end
 

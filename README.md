@@ -1,10 +1,17 @@
 # clamshellctl Homebrew Tap
 
-Install `clamshellctl`:
+Install the CLI:
 
 ```sh
 brew tap dotcom07/clamshellctl
 brew install clamshellctl
+```
+
+Install the menu bar app:
+
+```sh
+brew tap dotcom07/clamshellctl
+brew install --cask clamshellctl
 ```
 
 Upgrade later:
@@ -12,4 +19,5 @@ Upgrade later:
 ```sh
 brew update
 brew upgrade clamshellctl
+brew upgrade --cask clamshellctl
 ```
