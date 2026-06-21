@@ -21,7 +21,9 @@ clamshellctl off
 clamshellctl status
 ```
 
-`--until-activity` restores when keyboard, mouse, or trackpad activity resumes.
+Bare `clamshellctl on` restores when keyboard, mouse, or trackpad activity
+resumes. Add `--until-activity` to a timed session to restore on either timer
+expiry or activity.
 
 Upgrade later:
 
