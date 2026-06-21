@@ -1,8 +1,8 @@
 class Clamshellctl < Formula
   desc "Native macOS clamshell helper for brightness, mute, and disablesleep"
   homepage "https://github.com/dotcom07/clamshellctl"
-  url "https://github.com/dotcom07/clamshellctl/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "f28f3cdb220971f7d485dd26e75310eefefa519b25923fe1e634af4e46203c1e"
+  url "https://github.com/dotcom07/clamshellctl/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "8c5ff89b8f5b3be382b8a22e33d62a6821eedb2b6a84c1d31b98a8084d80e14a"
   license "BSD-2-Clause"
   head "https://github.com/dotcom07/clamshellctl.git", branch: "main"
 
@@ -18,6 +18,8 @@ class Clamshellctl < Formula
       Quick start:
         clamshellctl on       # dim built-in display, mute audio, prevent sleep on AC power
         clamshellctl on 30m   # turn on for 30 minutes, then restore
+        clamshellctl on --until-activity
+                              # restore when keyboard/mouse activity resumes
         clamshellctl off      # restore saved brightness/audio and allow normal sleep
         clamshellctl status   # show current clamshell-related state
         clamshellctl diag     # print display/audio/power diagnostics
