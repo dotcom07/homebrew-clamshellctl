@@ -10,6 +10,19 @@ brew install clamshellctl
 For closed-display, long-running work such as AI agents, builds, downloads, or
 scripts, use the CLI. The menu bar app is not distributed through Homebrew yet.
 
+Quick use:
+
+```sh
+clamshellctl on
+clamshellctl on 30m
+clamshellctl on --until-activity
+clamshellctl on 2h --until-activity
+clamshellctl off
+clamshellctl status
+```
+
+`--until-activity` restores when keyboard, mouse, or trackpad activity resumes.
+
 Upgrade later:
 
 ```sh
